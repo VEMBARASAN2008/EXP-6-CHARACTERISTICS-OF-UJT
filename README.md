@@ -14,27 +14,22 @@ UJT is the Uni Junction Transistor. It is a three-terminal device. The three ter
 Due to the existing PN junction, there will be a voltage drop. If voltage is applied to the emitter, the device will not turn on until the input voltage is less than the drop across the diode plus the drop at the variable resistance R1.
 When the device is turned on, holes move from emitter to base resulting in a current flow. Due to the sudden increase in charge concentration in the base region, conductivity increases. This causes a drop at base 1. If we further increase the emitter voltage, the device undergoes saturation. Hence UJT has three operating regions: (i) cut-off region, (ii) negative resistance region and (iii) saturation region.
 4. CIRCUIT DIAGRAM
- 
+ <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/34b084a3-9d4f-4f2b-9408-49c97447f2cd" />
+
 Reference circuit diagram reproduced from the supplied record.
 5. UJT EQUIVALENT CIRCUIT
 The UJT equivalent circuit consists of the inter-base resistance RBB divided into two portions, RB1 and RB2, with the emitter PN junction represented by a diode.
 6. UJT CHARACTERISTIC CURVE
 The emitter characteristic is plotted between emitter voltage VE and emitter current IE. The curve contains the cut-off region, peak point, negative resistance region, valley point and saturation region.
- 
+ <img width="1600" height="900" alt="WhatsApp Image 2026-11-27 at 9 17 29 AM" src="https://github.com/user-attachments/assets/191bfd87-dc52-4f47-aa76-b2caa47e3175" />
+<img width="1600" height="900" alt="WhatsApp Image 2026-11-27 at 9 17 21 AM" src="https://github.com/user-attachments/assets/c436eba5-dac1-4da3-850c-cd0f7c67eff9" />
+
+
 Reference model graph from the supplied record.
 7. PROCEDURE
-1. Set up the circuit as shown in the circuit diagram.
-2. Give the power supply.
-3. By varying the input power supply, take the values of voltage (VE) and current (IE).
-4. Plot the graph between VE and IE.
-5. Find the intrinsic stand-off ratio from the graph.
-8. FORMULA
-VBB = 12 V
-VP = VD + ηVBB
-Therefore, η = (VP − VD) / VBB
-Find the value of VP from the graph and calculate η. Similarly, determine the intrinsic stand-off ratio for all values of VBB.
+from the graph and calculate η. Similarly, determine the intrinsic stand-off ratio for all values of VBB.
 9. OBSERVATION
-
+1.Download two files and save in same folder 2.Open LT Spice 3.Go to file--->open UJT_oscillator.cir file 4.Run it 5.Output window will open.In output window go to plot settings---->Add trace--->choose v(e) ,click ok.This is input wave form  6.Now close output window,again run the file,in output window go to plot settings--->Add trace--->choose v(b1) ,this is output waveform.Take snap of both input and output wave form
 Simulation Results:
 
 
